@@ -12,6 +12,6 @@ public class InMemorySecurityConfig {
 	throws Exception{
 		builder
 		.inMemoryAuthentication()
-		.withUser("raul").password("123").roles("USER");
+		.withUser("raul").withPassword("123").roles("USER");
 	}
 }
